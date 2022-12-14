@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zac Conlin</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./src/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Zac Conlin" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Zac Conlin">Zac Conlin</h1>
+
+          <p class="title">President of the United States of America</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:zac@zconlin.com" class="contact-link">zac@zconlin.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+17196496149" class="contact-link">+1 (719) 649-6149</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Provo, Utah, USA</address>
+            </div>
+
+          </li>
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.facebook.com/zzorz13" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/zzorz13" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li> -->
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm a System Administrator for Student Life Technology (SLT) at BYU in Provo, Utah.
+            I enjoy learning while I work and diving deeper into what I do!
+          </p>
+
+          <p>
+            My job is to maintain the SLT computer systems, servers, websites,
+            and permissions, and make sure that they are functioning
+            and meet the needs of the students and organizations at BYU. I support, 
+            troubleshoot, and maintain the computer servers and networks.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What I'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Cybersecurity</h4>
+
+                <p class="service-item-text">
+                  Studying Cyber and CS to protect data with professional quality.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">IT</h4>
+
+                <p class="service-item-text">
+                  IT Professional with CompTIA A+ and CCNA Net+ training.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-microphone.svg" alt="Microphone icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Music</h4>
+
+                <p class="service-item-text">
+                  I'm a singer in a high-level collegiate choir and perform in an auditioned acapella group.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Film Making</h4>
+
+                <p class="service-item-text">
+                  I enjoy producing, filming, editing, and acting in high quality short videos.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/my-avatar.png" alt="Name Here" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Name Here</h4>
+
+              <time datetime="2022-12-11">12 November, 2022</time>
+
+              <div data-modal-text>
+                <p>
+                  Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Brigham Young University</h4>
+
+              <span>2019 - Present</span>
+
+              <p class="timeline-text">
+                BS in Cybersecurity (In-progress)
+              </p>
+
+              <p class="timeline-text">
+                Minor in Computer Science (In-progress)
+              </p>
+                
+              <p class="timeline-text">
+                - Fink Family Scholarship
+              </p>
+
+              <p class="timeline-text">
+                - Applicable Coursework: Programming Data Structures, Web-Based IT & Web Design, Technical Writing, UX Design
+              </p> 
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">BYU Student Life Technology | August 2022 - Present</h4>
+              <span>System Administrator</span>
+              <p class="timeline-text">
+                This is what I'm currently doing, see the about page for more information :)
+              </p>
+
+              <h4 class="h4 timeline-item-title timeline-item-title-padding">Street Smart Auto Brokers | Apr 2020 - Aug 2020</h4>
+              <span>Lot Technician</span>
+              <p class="timeline-text">
+                - Responsible for the maintenance and upkeep of all cars across three locations (two used car dealerships and an auto shop), with prices ranging from affordable to tricked-out super cars
+              </p>
+              <p class="timeline-text">
+                - Presented the vehicles to customers after preparing them for purchase, delivered them to customer’s homes if requested, and responsible for finding and fixing any issues with the vehicles or the lot
+              </p>
+              <p class="timeline-text">
+                - Required a proactive and consistent hard work - physically and mentally - and great attention to detail
+              </p>
+
+              <h4 class="h4 timeline-item-title timeline-item-title-padding">Smashburger/LLC | May 2019 - Aug 2019</h4>
+              <span>Guest Service Expert & Trainer</span>
+              <p class="timeline-text">
+                - Interacted with guests, represented the company during complaints, took orders, delivered food
+              </p>
+              <p class="timeline-text">
+                - Given official trainer title and responsibilities after four weeks due to work ethic, high performance, and good social interaction Skills
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Volunteer Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">The Church of Jesus Christ of Latter Day Saints | Sep 2020 - Aug 2022 | Paris, France</h4>
+              <span>Assistant to the Mission President (Executive Assistant)</span>
+              <p class="timeline-text">
+                - Served a 2 year LDS mission in France; in leadership with a stewardship over 250 adults spread over 3 European countries (France, Belgium, and Luxembourg)
+              </p>
+              <p class="timeline-text">
+                - Taught English, French, and Chinese classes to over 100 individuals; provided manual labor to both individuals and city institutions; provided aid to refugees
+              </p>
+              <p class="timeline-text">
+                - Hand selected as the executive assistant and right-hand man of the Mission President of the France Paris Mission after displaying many desirable qualities such as hard work, effectiveness, leadership, and trustworthiness
+              </p>
+              <p class="timeline-text">
+                - Participated in international banking, international transactions, and international housing agreements, all in a foreign language (French)
+              </p>
+              <p class="timeline-text">
+                - Acted as an advisor for the Mission President, led the mission in his absence, and made decisions that affected all of the full-time missionaries in the mission; worked as the head of a fully-fledged office staff
+              </p>
+              <p class="timeline-text">
+                - Created and delivered programs and trainings for the other missionaries in order to help them be more effective and efficient
+              </p>
+              <p class="timeline-text">
+                - Regularly planned and executed elaborate events
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Skills</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Proficient</h4>
+
+              <p class="timeline-text">
+                C++, CompTIA A+, CCNA NET+, Windows and Linux systems.
+              </p>
+
+              <h4 class="h4 timeline-item-title timeline-item-title-padding">Moderate</h4>
+
+              <p class="timeline-text">
+                Experience in many programming languages such as: Python, HTML, CSS, JavaScript, 
+                PHP, C#, SQL, and more.
+              </p>
+
+              <span class="timeline-item-title-padding">Additional Skills / Achievements / Abilities</span>
+
+              <p class="timeline-text">
+                - Professional working French
+              </p>
+              <p class="timeline-text">
+                - Conversational Mandarin Chinese
+              </p>
+              <p class="timeline-text">
+                - Eagle Scout
+              </p>
+              <p class="timeline-text">
+                - Cyberpatriot Gold-Tier
+              </p>
+              <p class="timeline-text">
+                - IB MYP Completer
+              </p>
+              <p class="timeline-text">
+                - Teacher’s Choice Award for MYP Personal Project
+              </p>
+              <p class="timeline-text">
+                - Dean’s List for Academic Success
+              </p>
+              <p class="timeline-text">
+                - National Honor Thespian
+              </p>
+              <p class="timeline-text">
+                - Three-Time AP Scholar with Honors
+              </p>
+              <p class="timeline-text">
+                - Graduated 25th in a class of 371
+              </p>
+              <p class="timeline-text">
+                - Graduated with honors
+              </p>
+              <p class="timeline-text">
+                - Can exit vim
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+      </article>
+
+
+
+
+
+       <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Coding Projects</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Music</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Video Projects</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Coding Projects</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Music</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Video Projects</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list-yt">
+
+            <li class="project-item active" data-filter-item data-category="music">
+              <a href="https://www.youtube.com/watch?v=X9fyFGd1yXc">
+
+                <figure>
+                  <iframe width="402" height="240" src="https://www.youtube.com/embed/X9fyFGd1yXc" title="Acapella Jam - Winter 2022" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </figure>
+
+                <h3 class="project-title">Acapella Jam - Winter 2022</h3>
+
+                <p class="project-category">Music</p>
+
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="music">
+              <a href="https://www.youtube.com/embed/gK-VpMheOWk">
+
+                <figure>
+                  <iframe width="402" height="240" src="https://www.youtube.com/embed/gK-VpMheOWk" title="Dream Set - BYU Men's Chorus - Fall Concert 2022" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </figure>
+                
+                <h3 class="project-title">Dream Set - BYU Men's Chorus - Fall Concert 2022</h3>
+
+                <p class="project-category">Music</p>
+
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="music">
+              <a href="https://www.youtube.com/embed/aM5XyX1A8WY">
+
+                <figure>
+                  <iframe width="402" height="240" src="https://www.youtube.com/embed/aM5XyX1A8WY" title="Choral Showcase Sep 2022 - BYU Men’s Chorus" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </figure>
+
+                <h3 class="project-title">Choral Showcase - Sep 2022</h3>
+
+                <p class="project-category">Music</p>
+
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="music">
+              <a href="https://www.youtube.com/embed/m1aMyTGC2qc">
+
+                <figure>
+                  <iframe width="402" height="240" src="https://www.youtube.com/embed/m1aMyTGC2qc" title="How Great Thou Art" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </figure>
+
+                <h3 class="project-title">How Great Thou Art</h3>
+
+                <p class="project-category">Music</p>
+
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="music">
+              <a href="https://www.youtube.com/embed/0zzyShJZ9YQ">
+
+                <figure>
+                  <iframe width="402" height="240" src="https://www.youtube.com/embed/0zzyShJZ9YQ" title="A Poor Wayfaring Man of Grief" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </figure>
+
+                <h3 class="project-title">A Poor Wayfaring Man of Grief</h3>
+
+                <p class="project-category">Music</p>
+
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="music">
+              <a href="https://open.spotify.com/embed/track/53O7vm6bYQrYEYqyhQFCqV?utm_source=generator&theme=0">
+
+                <figure>
+                  <iframe width="402" height="240" style="border-radius:12px" src="https://open.spotify.com/embed/track/53O7vm6bYQrYEYqyhQFCqV?utm_source=generator&theme=0" width="100%" height="150" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </figure>
+
+                <h3 class="project-title">The Hunt (Original)</h3>
+
+                <p class="project-category">Music</p>
+
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="video projects">
+              <a href="https://www.youtube.com/embed/YJAnxxK3ZS4">
+
+                <figure>
+                  <iframe width="402" height="240" src="https://www.youtube.com/embed/YJAnxxK3ZS4" title="Mario Kart IRL" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </figure>
+
+                <h3 class="project-title">Mario Kart IRL</h3>
+
+                <p class="project-category">Video Projects</p>
+
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="video projects">
+              <a href="https://www.youtube.com/embed/hfF5CPI9fe8">
+
+                <figure>
+                  <iframe width="402" height="240" src="https://www.youtube.com/embed/hfF5CPI9fe8" title="Lurking" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </figure>
+
+                <h3 class="project-title">Lurking</h3>
+
+                <p class="project-category">Video Projects</p>
+
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="video projects">
+              <a href="https://www.youtube.com/embed/0YBpab3LJ4c">
+
+                <figure>
+                  <iframe width="402" height="240" src="https://www.youtube.com/embed/0YBpab3LJ4c" title="Elementalists" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </figure>
+
+                <h3 class="project-title">Elementalists</h3>
+
+                <p class="project-category">Video Projects</p>
+
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="video projects">
+              <a href="https://www.youtube.com/embed/n0oU70LtAhQ">
+                
+                <figure>
+                  <iframe width="402" height="240" src="https://www.youtube.com/embed/n0oU70LtAhQ" title="The Cell Phone Game" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </figure>
+
+                <h3 class="project-title">The Cell Phone Game</h3>
+
+                <p class="project-category">Video Projects</p>
+
+              </a>
+            </li>
+
+            <!-- <li class="project-item active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Orizon</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Fundo</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Brawlhalla</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">DSM.</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">MetaSpark</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Summary</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Task Manager</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li> -->
+
+          </ul>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./src/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
